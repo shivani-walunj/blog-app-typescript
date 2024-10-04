@@ -1,4 +1,4 @@
-// src/components/About.test.tsx
+
 import { render, screen } from '@testing-library/react';
 import About from '../components/About';
 

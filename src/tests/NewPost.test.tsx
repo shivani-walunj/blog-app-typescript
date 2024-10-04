@@ -1,4 +1,3 @@
-// src/components/NewPost.test.tsx
 import { render, fireEvent, screen } from '@testing-library/react';
 import NewPost from '../components/NewPost';
 

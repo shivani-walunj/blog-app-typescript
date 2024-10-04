@@ -1,4 +1,3 @@
-// src/components/PostPage.test.tsx
 import { render, screen, waitFor } from '@testing-library/react';
 import axios from 'axios';
 import PostPage from "../components/PostPage";

@@ -1,4 +1,4 @@
-// src/components/EditPost.test.tsx
+
 import { render, fireEvent, screen } from '@testing-library/react';
 import EditPost from "../components/EditPost";
 
