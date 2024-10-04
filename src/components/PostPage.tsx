@@ -29,8 +29,10 @@ class PostPage extends Component<PostPageProps> {
                             <h2>{post.title}</h2>
                             <p className="postDate">{post.datetime}</p>
                             <p className="postBody">{post.body}</p>
-                            <button onClick={() => handleDelete(post.id)}>Delete Post</button>
-                            <Link to={`/edit/${post.id}`}>Edit Post</Link>
+                            <button className='deleteButton' onClick={() => handleDelete(post.id)}>Delete Post</button>
+                            <button className='editButton'>
+                            <Link className='editLink' to={`/edit/${post.id}`}>Edit Post</Link>
+                            </button>
                         </>
                     )}
                     {!post && (
