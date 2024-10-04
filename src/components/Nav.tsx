@@ -18,7 +18,7 @@ class Nav extends Component<NavProps> {
     render() {
         return (
             <nav className="Nav">
-                <form className="searchForm" onSubmit={this.handleSubmit}>
+                <form className="searchForm" onSubmit={this.handleSubmit} data-testId='form'>
                     <label htmlFor="search">Search Posts</label>
                     <input
                         id="search"

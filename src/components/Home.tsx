@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Feed from "./Feed.tsx";
+import Feed from './Feed';
 
 interface HomeProps {
     posts: {

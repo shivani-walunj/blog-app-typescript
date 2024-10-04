@@ -2,15 +2,15 @@ import React, { Component, FormEvent } from "react";
 import { Route, Routes, useNavigate, NavigateFunction } from "react-router-dom";
 import { format } from "date-fns";
 import axios from "axios";
-import Header from "./components/Header.tsx";
-import Nav from "./components/Nav.tsx";
-import Footer from "./components/Footer.tsx";
-import Home from "./components/Home.tsx";
-import NewPost from "./components/NewPost.tsx";
-import PostPage from "./components/PostPage.tsx";
-import EditPost from "./components/EditPost.tsx";
-import About from "./components/About.tsx";
-import Missing from "./components/Missing.tsx";
+import Header from "./components/Header";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
+import NewPost from "./components/NewPost";
+import PostPage from "./components/PostPage"
+import EditPost from "./components/EditPost"
+import About from "./components/About";
+import Missing from "./components/Missing";
 
 interface Post {
   id: number;

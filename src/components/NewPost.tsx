@@ -44,7 +44,7 @@ class NewPost extends Component<NewPostProps> {
                         value={postBody}
                         onChange={this.handleBodyChange}
                     />
-                    <button type="submit">Submit</button>
+                    <button type="submit" data-testid="submit">Submit</button>
                 </form>
             </main>
         );
