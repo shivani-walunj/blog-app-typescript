@@ -7,7 +7,6 @@ describe('Header', () => {
     it('renders the component with the given title', () => {
         const title = 'Test Title';
         render(<Header title={title} />);
-
         // Verify the title is rendered
         expect(screen.getByText(title)).toBeInTheDocument();
     });

@@ -11,7 +11,7 @@ describe('Nav', () => {
         search: '',
         setSearch: mockSetSearch,
     };
-
+    
     it('renders the component with initial props', () => {
         render(
             <MemoryRouter>

@@ -11,6 +11,7 @@ const mockPosts = [
         datetime: '2023-01-01',
         body: 'This is the body of Test Post 1'
     },
+    
     {
         id: '2',
         title: 'Test Post 2',

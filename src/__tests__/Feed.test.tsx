@@ -3,7 +3,6 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import Feed from '../Feed'; // Ensure correct import
 import { PostType } from '../Feed'; // Ensure correct import
-
 describe('Feed', () => {
     const mockPosts: PostType[] = [
         {

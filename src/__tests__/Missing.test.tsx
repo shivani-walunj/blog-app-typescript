@@ -11,7 +11,7 @@ describe('Missing', () => {
                 <Missing />
             </MemoryRouter>
         );
-
+        
         // Verify the "Page Not Found" message
         expect(screen.getByText('Page Not Found')).toBeInTheDocument();
         // Verify the disappointing message
